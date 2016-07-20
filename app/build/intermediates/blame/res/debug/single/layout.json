@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Hwaling\\FieldController\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_tab_02.xml",
+        "source": "C:\\Hwaling\\FieldController\\app\\src\\main\\res\\layout\\main_tab_02.xml"
+    },
+    {
+        "merged": "C:\\Hwaling\\FieldController\\app\\build\\intermediates\\res\\merged\\debug\\layout\\socketclient.xml",
+        "source": "C:\\Hwaling\\FieldController\\app\\src\\main\\res\\layout\\socketclient.xml"
+    },
+    {
+        "merged": "C:\\Hwaling\\FieldController\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Hwaling\\FieldController\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Hwaling\\FieldController\\app\\build\\intermediates\\res\\merged\\debug\\layout\\socketserver.xml",
+        "source": "C:\\Hwaling\\FieldController\\app\\src\\main\\res\\layout\\socketserver.xml"
+    },
+    {
+        "merged": "C:\\Hwaling\\FieldController\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_tab_03.xml",
+        "source": "C:\\Hwaling\\FieldController\\app\\src\\main\\res\\layout\\main_tab_03.xml"
+    },
+    {
+        "merged": "C:\\Hwaling\\FieldController\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_tab_01.xml",
+        "source": "C:\\Hwaling\\FieldController\\app\\src\\main\\res\\layout\\main_tab_01.xml"
+    },
+    {
+        "merged": "C:\\Hwaling\\FieldController\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homemain.xml",
+        "source": "C:\\Hwaling\\FieldController\\app\\src\\main\\res\\layout\\homemain.xml"
+    },
+    {
+        "merged": "C:\\Hwaling\\FieldController\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_tab_04.xml",
+        "source": "C:\\Hwaling\\FieldController\\app\\src\\main\\res\\layout\\main_tab_04.xml"
+    },
+    {
+        "merged": "C:\\Hwaling\\FieldController\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem.xml",
+        "source": "C:\\Hwaling\\FieldController\\app\\src\\main\\res\\layout\\listitem.xml"
+    },
+    {
+        "merged": "C:\\Hwaling\\FieldController\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_bar.xml",
+        "source": "C:\\Hwaling\\FieldController\\app\\src\\main\\res\\layout\\bottom_bar.xml"
+    }
+]
