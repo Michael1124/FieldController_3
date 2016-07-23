@@ -167,8 +167,33 @@ public class MainActivity extends Activity implements OnClickListener {
 	private Timer timer2 = new Timer();
 	private AdkReadSerialTask adkRSTask = new AdkReadSerialTask() ;
 	private uploadT431ServerTask uploadTasK = new uploadT431ServerTask();
-	
-	
+
+
+	public String loadFileFromAsset(String filename) {
+		String json = null;
+		try {
+
+			InputStream is = getAssets().open(filename);
+
+			int size = is.available();
+
+			byte[] buffer = new byte[size];
+
+			is.read(buffer);
+
+			is.close();
+
+			json = new String(buffer, "UTF-8");
+
+
+		} catch (IOException ex) {
+			ex.printStackTrace();
+			return null;
+		}
+		return json;
+
+	}
+
 	private  Handler TimerHandler2 = new Handler(){  
     	@Override
     	public void handleMessage(Message msg) {  
@@ -978,6 +1003,7 @@ public class MainActivity extends Activity implements OnClickListener {
    private void initialParam() {
 
 	  readString = readFromFile(initFilename);
+	 //  readString = loadFileFromAsset(initFilename);
       try {
           
           /****** Creates a new JSONObject with name/value mappings from the JSON string. ********/

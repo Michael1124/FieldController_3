@@ -11,6 +11,9 @@ import com.activeandroid.annotation.Table;
 public class tbMon extends Model {
  
     // Notice how we specified the name of our column here
+    @Column(name = "Date")
+    public Date myDate;
+
     @Column(name = "rawTemp")
     public double rawTemp;
     
@@ -29,8 +32,7 @@ public class tbMon extends Model {
     @Column(name = "AmbientHmdty")
     public double AmbientHmdty;
     
-    @Column(name = "Date")
-    public Date myDate;
+
     
     public tbMon() {
         // Notice how super() has been called to perform default initialization

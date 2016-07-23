@@ -2,12 +2,17 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "24.0.1"
+    buildToolsVersion '19.1.0'
 
     defaultConfig {
         applicationId "com.hwaling.udoo"
         minSdkVersion 18
-        targetSdkVersion 18
+        targetSdkVersion 19
+    }
+
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize "4g"
     }
 
     buildTypes {
@@ -22,5 +27,5 @@ dependencies {
     compile 'com.android.support:support-v4:19.1.0'
     compile files('libs/activeandroid-3.0.jar')
     compile files('libs/adktoolkit-0.2.0.jar')
-    compile files('libs/android-support-v13.jar')
+ //   compile files('libs/android-support-v13.jar')
 }

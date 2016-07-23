@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="18"
-        android:targetSdkVersion="18" />
+        android:targetSdkVersion="19" />
 
     <!-- Allows USB Accessory features -->
     <uses-feature android:name="android.hardware.usb.accessory" />
@@ -25,7 +25,7 @@
             android:value="FieldController.db" />
         <meta-data
             android:name="AA_DB_VERSION"
-            android:value="2" />
+            android:value="3" />
 
         <activity
             android:name="com.hwaling.udoo.MainActivity"
