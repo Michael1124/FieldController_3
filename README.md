@@ -5,3 +5,4 @@
 Compile Sdk version: 4.4 (kitkat) API19
 Build tool version: 19.1.0
 
+Edit font size.
